@@ -9,8 +9,6 @@
     {
         public static void Main(string[] args)
         {
-            //args = new string[] { @"" };
-
             if (args.Length != 1)
             {
                 Console.WriteLine("No path provided!");
