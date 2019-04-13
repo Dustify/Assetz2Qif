@@ -27,6 +27,7 @@
             // use a builder for efficient string-buildage
             var builder = new StringBuilder();
 
+            // type is always bank
             builder.AppendLine("!Type:Bank");
 
             var stream = File.OpenRead(path);
