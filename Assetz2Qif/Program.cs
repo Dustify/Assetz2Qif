@@ -30,6 +30,7 @@
             // type is always bank
             builder.AppendLine("!Type:Bank");
 
+            // get stream and reader involved
             var stream = File.OpenRead(path);
             var reader = new StreamReader(stream);
 
