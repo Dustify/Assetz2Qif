@@ -18,6 +18,7 @@
                 return;
             }
 
+            // if we've made it this far, we can start
             new Program(args[0]);
         }
 
