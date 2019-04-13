@@ -9,6 +9,7 @@
     {
         public static void Main(string[] args)
         {
+            // can't continue if there's no path passed as an argument!
             if (args.Length != 1)
             {
                 Console.WriteLine("No path provided!");
