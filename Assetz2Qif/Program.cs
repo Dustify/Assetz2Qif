@@ -24,6 +24,7 @@
 
         public Program(string path)
         {
+            // use a builder for efficient string-buildage
             var builder = new StringBuilder();
 
             builder.AppendLine("!Type:Bank");
